@@ -213,7 +213,7 @@ export default function SmartPaperSection() {
     <div ref={masterRef} className="bg-[#080808]">
 
       {/* Smart Paper Section */}
-      <section id='about' ref={smartPaperRef} className="relative h-screen w-full bg-[#111] overflow-hidden text-white">
+      <section id="about" ref={smartPaperRef} className="relative h-screen w-full bg-[#111] overflow-hidden text-white">
         {data.smartPaper.map((slide, index) => (
           <div
             key={index}

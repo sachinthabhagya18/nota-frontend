@@ -170,7 +170,7 @@ export default function DetailSpecificationsSection() {
     <div ref={containerRef} className="w-full flex flex-col bg-[#000000]">
 
       {/* White Background & Text Highlight */}
-      <section id='inside-the-box' className="w-full bg-white text-black pt-32 md:pt-40 pb-16 md:pb-24 px-6 md:px-16 selection:bg-black selection:text-white">
+      <section id="inside-the-box" className="w-full bg-white text-black pt-32 md:pt-40 pb-16 md:pb-24 px-6 md:px-16 selection:bg-black selection:text-white">
         <div className="max-w-[1200px] mx-auto flex justify-center">
           <p
             ref={introTextRef}
