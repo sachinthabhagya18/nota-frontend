@@ -130,7 +130,7 @@ export default function Page() {
         isDesktop: "(min-width: 768px)",
         isMobile: "(max-width: 767px)"
       }, (context) => {
-        let { isDesktop } = context.conditions
+        let { isDesktop } = context.conditions as { isDesktop: boolean; isMobile: boolean }
 
         // Hero timeline
         const heroTl = gsap.timeline({
