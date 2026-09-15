@@ -253,7 +253,7 @@ export default function Page() {
       <Header />
 
       {/* Hero Section */}
-      <section ref={videoContainerRef} className="relative h-screen w-full overflow-hidden bg-black">
+      <section id="specifications" ref={videoContainerRef} className="relative h-screen w-full overflow-hidden bg-black">
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-black/60 z-[5] pointer-events-none" />
         
         {data.videoUrl ? (

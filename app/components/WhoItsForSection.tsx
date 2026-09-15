@@ -159,7 +159,7 @@ export default function WhoItsForSection() {
   }, [videoUrl])
 
   return (
-    <section ref={containerRef} className="relative min-h-screen md:h-screen w-full bg-black text-white overflow-x-hidden md:overflow-hidden selection:bg-white selection:text-black">
+    <section id='who-its-for' ref={containerRef} className="relative min-h-screen md:h-screen w-full bg-black text-white overflow-x-hidden md:overflow-hidden selection:bg-white selection:text-black">
       <div
         ref={textWrapperRef}
         className="md:absolute top-0 inset-x-0 w-full flex flex-col items-center invisible md:visible will-change-transform"
